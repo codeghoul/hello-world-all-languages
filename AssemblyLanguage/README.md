@@ -21,13 +21,21 @@ Once you are sure that MASM is installed correctly, then you can follow these st
 2: Go to Start, Programs, MS-DOS Prompt (or Command Window). This will open a second DOS window. Change to your .ASM directory (for example, C:\COP3402) and issue the commands to run MASM. Assuming your file is named FIRST.ASM, then these commands will change to your .ASM directory (for example, C:\COP3402) , compile, link and run it.
 
 o C:
+
 o cd \COP3402
+
 o MASM/L HelloWorld.ASM
+
 o LINK HelloWorld.OBJ
+
 o HelloWorld.EXE
+
 
 2: If you have any errors after issuing the MASM command, then you will need to fix your .ASM file and redo the above steps. You can open the file FIRST.LST to see where all your errors are, but you must change the FIRST.ASM file, not the FIRST.LST file. You will not need to change directories again, so you only need two commands to compile, link, and run the program.
 
 o MASM/L HelloWorld.ASM
+
 o LINK HelloWorld.OBJ
+
 o HelloWorld.EXE
+
